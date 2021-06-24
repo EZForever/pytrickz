@@ -14,7 +14,7 @@ setup(
     author = 'EZForever',
     author_email = None,
     url = 'https://github.com/EZForever',
-    packages = [ 'pytrickz' ],
+    packages = [ 'pytrickz', 'pytrickz.extensions' ],
     install_requires = [ ],
     extras_require = { 'extend_builtins': [ 'forbiddenfruit' ] },
     scripts = [ ]
