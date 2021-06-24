@@ -96,7 +96,7 @@ A concept [from C#][extension-methods]. Prepend your method definition with `@ex
 >>> # This example needs `forbiddenfruit` to work, since it extends built-in types. `help(extension)` for more info.
 >>> 
 >>> @extension
-... def my_reversed(self: str) -> int: # Type annotation on `self` is necessary, similar to writing `this String` in C#
+... def my_reversed(self: str) -> str: # Type annotation on `self` is necessary, similar to writing `this String` in C#
 ...     return self[ : : -1]
 ... 
 >>> '123456'.my_reversed()
