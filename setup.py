@@ -7,7 +7,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name = 'pytrickz',
-    version = '0.0.1-indev+20210613',
+    version = '0.0.1-indev',
     description = 'A library aimed for providing handy hacks for your daily coding task.',
     license = 'MIT',
     long_description = long_description,
